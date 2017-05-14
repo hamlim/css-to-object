@@ -38,6 +38,13 @@ const MyComponent = props => (
 );
 ```
 
+## Why Though?
+
+I really like writing plain old css, and hate that I have to write hyphened css
+properties as camelCase strings. So I made this small little helper to do that
+part for me.
+
+
 ## Note:
 
 This is still an early version, a lot of the features that [stylis](https://github.com/thysultan/stylis.js) supports aren't supported yet.
