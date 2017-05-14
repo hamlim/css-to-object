@@ -49,6 +49,15 @@ part for me.
 
 This is still an early version, a lot of the features that [stylis](https://github.com/thysultan/stylis.js) supports aren't supported yet.
 
+Things that do work:
+
+* Flat css
+
+Things that don't work:
+
+* Namespaced css (i.e. `.class { color: red; }`)
+* Media Queries/`@supports` blocks  
+
 ## Thanks:
 
 Thanks to [stylis](https://github.com/thysultan/stylis.js) for being awesome at compiling
