@@ -1,0 +1,26 @@
+{
+  "name": "css-to-object",
+  "version": "1.0.0",
+  "description": "A simple utility to convert plain old css strings to javascript objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamlim/css-to-object.git"
+  },
+  "keywords": [
+    "css",
+    "styles"
+  ],
+  "author": "Matt Hamlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamlim/css-to-object/issues"
+  },
+  "homepage": "https://github.com/hamlim/css-to-object#readme",
+  "dependencies": {
+    "stylis": "^2.0.10"
+  }
+}
