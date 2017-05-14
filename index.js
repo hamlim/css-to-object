@@ -20,7 +20,7 @@ const joinHyphens = string => {
  * @param  {string} styleString The css source string
  * @return {object}             The css styles object
  */
-const stylesToObject = styleString => {
+const cssToObject = styleString => {
   let ret = {};
   const compiled = stylis('', styleString);
   const strippedCompiled = compiled.substr(2, compiled.length - 4);
